@@ -1,0 +1,23 @@
+.container {
+    animation-name: botabota;
+    animation-duration: 3s;
+}
+
+.pelota {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  margin:5rem;
+  border-radius: 50%;
+  animation: botabota 2s infinite;
+}
+
+@keyframes botabota {
+    0%, 100% {
+        top: 0;
+    }
+    50% {
+        top: 300px;
+    }
+}
